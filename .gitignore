@@ -1,5 +1,6 @@
 *.X/build
-*.X/generated_files
+*.X/.generated_files
+*.X/dist
 
 src/config/*_rtos
 src/third_party/rtos/FreeRTOS
