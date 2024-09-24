@@ -36,6 +36,7 @@
 #include "task.h"
 #endif
 
+// uncomment out the "printf" bit to allow debug prints with APP_PRINTF(...)
 #define APP_PRINTF(...) //printf(__VA_ARGS__)
 
 static SYS_INP_InputListener app_inputListener;
