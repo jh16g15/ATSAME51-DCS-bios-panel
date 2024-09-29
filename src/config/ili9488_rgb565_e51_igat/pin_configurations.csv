@@ -25,7 +25,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 28,PB15,,ADC0_X29/Y29,Analog,High Impedance,n/a,,,NORMAL
 29,PA12,,SERCOM2_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
 30,PA13,,SERCOM2_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
-31,PA14,,OSCCTRL_XIN0,Digital,High Impedance,n/a,No,No,NORMAL
+31,PA14,,Available,,,,,,NORMAL
 32,PA15,,TC3_WO1,Digital,Out,High,,,NORMAL
 35,PA16,,Available,,,,,,NORMAL
 36,PA17,,Available,,,,,,NORMAL

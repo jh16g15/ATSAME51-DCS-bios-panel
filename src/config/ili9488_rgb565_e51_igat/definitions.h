@@ -52,10 +52,10 @@
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
 #include "usb/usb_chapter_9.h"
 #include "usb/usb_device.h"
-#include "driver/input/drv_touch_itd.h"
-#include "peripheral/tc/plib_tc0.h"
 #include "peripheral/rtc/plib_rtc.h"
 #include "touch/touch.h"
+#include "peripheral/tc/plib_tc0.h"
+#include "driver/input/drv_touch_itd.h"
 #include "peripheral/tc/plib_tc3.h"
 #include "gfx/driver/processor/vgpu/drv_gfx_vgpu.h"
 #include "system/time/sys_time.h"
@@ -69,17 +69,19 @@
 #include "system/debug/sys_debug.h"
 #include "peripheral/sercom/usart/plib_sercom2_usart.h"
 #include "peripheral/evsys/plib_evsys.h"
-#include "gfx/legato/generated/le_gen_harmony.h"
+#include "gfx/legato/legato.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/dmac/plib_dmac.h"
 #include "peripheral/cmcc/plib_cmcc.h"
 #include "peripheral/pm/plib_pm.h"
-#include "peripheral/qspi/plib_qspi.h"
 #include "system/input/sys_input.h"
+#include "peripheral/qspi/plib_qspi.h"
 #include "peripheral/ccl/plib_ccl.h"
 #include "gfx/driver/controller/external_controller/drv_gfx_external_controller.h"
+#include "system/console/sys_console.h"
+#include "system/console/src/sys_console_usb_cdc_definitions.h"
 #include "app.h"
 #include "app_pwrmgr.h"
 
@@ -216,6 +218,8 @@ typedef struct
 
     SYS_MODULE_OBJ  sysTime;
 	SYS_MODULE_OBJ  drvUSBFSV1Object;
+
+    SYS_MODULE_OBJ  sysConsole0;
 
 
 } SYSTEM_OBJECTS;

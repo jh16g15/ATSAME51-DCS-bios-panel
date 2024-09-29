@@ -73,7 +73,9 @@
 void SYS_Tasks ( void )
 {
     /* Maintain system services */
+    SYS_CONSOLE_Tasks(SYS_CONSOLE_INDEX_0);
     
+
 
     /* Maintain Device Drivers */
         drv_touch_itd_task();
@@ -90,7 +92,7 @@ void SYS_Tasks ( void )
     DRV_USBFSV1_Tasks(sysObj.drvUSBFSV1Object);
 
 
-    Legato_Tasks();
+    leUpdate(0);
 
 
     SYS_INP_Tasks();

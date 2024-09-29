@@ -88,6 +88,22 @@ extern "C" {
 #define SYS_TIME_CPU_CLOCK_FREQUENCY                (120000000)
 #define SYS_TIME_COMPARE_UPDATE_EXECUTION_CYCLES    (232)
 
+#define SYS_CONSOLE_INDEX_0                       0
+
+/* RX buffer size has one additional element for the empty spot needed in circular buffer */
+#define SYS_CONSOLE_USB_CDC_RD_BUFFER_SIZE_IDX0    129
+
+/* TX buffer size has one additional element for the empty spot needed in circular buffer */
+#define SYS_CONSOLE_USB_CDC_WR_BUFFER_SIZE_IDX0    129
+
+
+#define SYS_CONSOLE_DEVICE_MAX_INSTANCES   			(1U)
+#define SYS_CONSOLE_UART_MAX_INSTANCES 	   			(0U)
+#define SYS_CONSOLE_USB_CDC_MAX_INSTANCES 	   		(1U)
+#define SYS_CONSOLE_PRINT_BUFFER_SIZE        		(200U)
+
+#define SYS_CONSOLE_USB_CDC_READ_WRITE_BUFFER_SIZE 	(64)
+
 
 
 // *****************************************************************************
@@ -103,7 +119,7 @@ extern "C" {
 // *****************************************************************************
 // *****************************************************************************
 /* Number of Endpoints used */
-#define DRV_USBFSV1_ENDPOINTS_NUMBER                        3
+#define DRV_USBFSV1_ENDPOINTS_NUMBER                        5
 
 /* The USB Device Layer will not initialize the USB Driver */
 #define USB_DEVICE_DRIVER_INITIALIZE_EXPLICIT
@@ -119,13 +135,13 @@ extern "C" {
 
 
 /* Maximum instances of CDC function driver */
-#define USB_DEVICE_CDC_INSTANCES_NUMBER                     1
+#define USB_DEVICE_CDC_INSTANCES_NUMBER                     2
 
 
 /* CDC Transfer Queue Size for both read and
    write. Applicable to all instances of the
    function driver */
-#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 3
+#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 6
 
 /*** USB Driver Configuration ***/
 
