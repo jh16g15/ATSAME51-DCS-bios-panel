@@ -74,7 +74,7 @@ void SYS_Tasks ( void )
 {
     /* Maintain system services */
     SYS_CONSOLE_Tasks(SYS_CONSOLE_INDEX_0);
-    
+
 
 
     /* Maintain Device Drivers */
@@ -92,7 +92,7 @@ void SYS_Tasks ( void )
     DRV_USBFSV1_Tasks(sysObj.drvUSBFSV1Object);
 
 
-    leUpdate(0);
+    Legato_Tasks();
 
 
     SYS_INP_Tasks();

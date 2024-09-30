@@ -597,7 +597,7 @@ gfxDriverIOCTLResponse DRV_ILI9488_IOCTL(gfxDriverIOCTLRequest request,
         {
             rect = (gfxIOCTLArg_LayerRect*)arg;
             
-            rect->base.id = 0;
+            rect->layer.id = 0;
             rect->x = 0;
             rect->y = 0;
             rect->width = DISPLAY_WIDTH;

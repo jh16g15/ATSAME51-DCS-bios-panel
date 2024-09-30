@@ -64,6 +64,23 @@
               <logicalFolder name="f4" displayName="font" projectFiles="true">
                 <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/font/legato_font.h</itemPath>
               </logicalFolder>
+              <logicalFolder name="generated" displayName="generated" projectFiles="true">
+                <logicalFolder name="screen" displayName="screen" projectFiles="true">
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_CkrScrn1.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_CkrScrn2.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_MGScrn.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Info.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_CCtrlScrn1.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Settings.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_PlyrScrn.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Menu.h</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Intro.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_harmony.h</itemPath>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_scheme.h</itemPath>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_assets.h</itemPath>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_init.h</itemPath>
+              </logicalFolder>
               <logicalFolder name="f5" displayName="image" projectFiles="true">
                 <logicalFolder name="f2" displayName="jpeg" projectFiles="true">
                   <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/image/jpeg/legato_imagedecoder_jpeg.h</itemPath>
@@ -198,6 +215,7 @@
                 <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/widget/legato_widget_skin_classic_common.h</itemPath>
               </logicalFolder>
               <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/legato.h</itemPath>
+              <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/legato_config.h</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f6" displayName="osal" projectFiles="true">
@@ -582,6 +600,30 @@
                 <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/font/legato_rasterfont_liberationmono1.c</itemPath>
                 <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/font/legato_rasterfont_liberationmono8.c</itemPath>
                 <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/font/legato_rasterfont_stream.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="generated" displayName="generated" projectFiles="true">
+                <logicalFolder name="font" displayName="font" projectFiles="true">
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/font/le_gen_fonts.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="image" displayName="image" projectFiles="true">
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/image/le_gen_images.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="screen" displayName="screen" projectFiles="true">
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_CkrScrn1.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_CkrScrn2.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Info.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_MGScrn.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_CCtrlScrn1.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Settings.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_PlyrScrn.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Menu.c</itemPath>
+                  <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/screen/le_gen_screen_Intro.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_harmony.c</itemPath>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_scheme.c</itemPath>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_stringtable.c</itemPath>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_globalpalette.c</itemPath>
+                <itemPath>../src/config/ili9488_rgb565_e51_igat/gfx/legato/generated/le_gen_init.c</itemPath>
               </logicalFolder>
               <logicalFolder name="f5" displayName="image" projectFiles="true">
                 <logicalFolder name="f2" displayName="jpeg" projectFiles="true">
@@ -1666,6 +1708,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-fffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/joehi/MPLABXProjects/SAME51-IGAT-DCS-BIOS-Panel/SAME51-IGAT-DCS-BIOS-Panel.X/debug/ili9488_rgb565_e51_igat/SAME51-IGAT-DCS-BIOS-Panel_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

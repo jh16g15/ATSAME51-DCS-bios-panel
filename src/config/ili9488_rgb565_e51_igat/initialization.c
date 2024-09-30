@@ -102,7 +102,7 @@ SYSTEM_OBJECTS sysObj;
  ******************************************************/
  
 
-const DRV_USBFSV1_INIT drvUSBInit =
+static const DRV_USBFSV1_INIT drvUSBInit =
 {
     /* Interrupt Source for USB module */
     .interruptSource = USB_OTHER_IRQn,
@@ -317,7 +317,7 @@ void SYS_Initialize ( void* data )
     sysObj.drvUSBFSV1Object = DRV_USBFSV1_Initialize(DRV_USBFSV1_INDEX_0, (SYS_MODULE_INIT *) &drvUSBInit);
 
     // initialize UI library
-    leInitialize(&ExternalController);
+    Legato_Initialize();
 
 
     /* MISRAC 2012 deviation block end */

@@ -1132,7 +1132,7 @@ typedef struct
  */
 typedef struct
 {
-    gfxIOCTLArg_LayerArg base;
+    gfxIOCTLArg_LayerArg layer;
 
     gfxIRQCallBack callback;
 } gfxIOCTLArg_LayerIRQCallback;
@@ -1143,7 +1143,7 @@ typedef struct
  */
 typedef struct
 {
-    gfxIOCTLArg_LayerArg base;
+    gfxIOCTLArg_LayerArg layer;
     
     int32_t x;
     int32_t y;
@@ -1155,7 +1155,7 @@ typedef struct
  */
 typedef struct
 {
-    gfxIOCTLArg_LayerArg base;
+    gfxIOCTLArg_LayerArg layer;
     
     uint32_t width;
     uint32_t height;
@@ -1167,7 +1167,7 @@ typedef struct
  */
 typedef struct
 {
-    gfxIOCTLArg_LayerArg base;
+    gfxIOCTLArg_LayerArg layer;
     
     int32_t x;
     int32_t y;
@@ -1181,7 +1181,7 @@ typedef struct
  */
 typedef struct
 {
-    gfxIOCTLArg_LayerArg base;
+    gfxIOCTLArg_LayerArg layer;
     
     union
     {
